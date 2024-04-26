@@ -31,7 +31,7 @@ const max = createSlice({
             state.agiya = false
             return
         }
-        let quote = quotes.map((obj)=>obj.quote.slice(value,100))
+        let quote = quotes.map((obj)=>obj.quote.slice(value,50))
         state.CountWords = quote
        }
     }
