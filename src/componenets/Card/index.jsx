@@ -37,7 +37,7 @@ export default function index({ quote, author, id }) {
         onClick={handleOpen}
         sx={{
           maxWidth: 275,
-          // maxHeight: 275,
+          maxHeight: 275,
           backgroundImage: "linear-gradient(to top, #9890e3 0%, #b1f4cf 100%)",
           transition: "transform 300ms ease-in-out",
           boxShadow: "5px 5px 10px 0 rgba(0, 0, 0, 0.2)",
